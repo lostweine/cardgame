@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Карти Онлайн</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <h1>ОБЕРИ ГРУ</h1>
+        <button class="btn-main" onclick="selectGame('poker')">ПОКЕР</button>
+        <button class="btn-main" onclick="selectGame('durak')">ДУРЕНЬ</button>
+    </div>
+
+    <div id="game-ui" style="display:none;">
+        <div class="table">
+            <div id="table-cards"></div>
+            <div id="trump-slot"></div>
+        </div>
+        <div class="controls">
+            <button onclick="deal()">РОЗДАТИ КАРТИ</button>
+            <button onclick="location.reload()">МЕНЮ</button>
+        </div>
+        <div id="my-hand" class="hand"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

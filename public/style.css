@@ -1,0 +1,155 @@
+body {
+    background: #121212;
+    margin: 0;
+    font-family: 'Arial Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+#menu { text-align: center; }
+
+.menu-btn {
+    display: block;
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 24px;
+    background: #e67e22;
+    border: 4px solid #d35400;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.table {
+    width: 85vw;
+    height: 60vh;
+    background: radial-gradient(circle, #27ae60 0%, #1e8449 100%);
+    border: 15px solid #5d4037;
+    border-radius: 200px;
+    position: relative;
+    box-shadow: inset 0 0 100px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hand {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: -40px;
+}
+
+.card {
+    width: 100px;
+    height: 145px;
+    background-color: white;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    border: 2px solid #333;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+}
+
+.card:hover {
+    transform: translateY(-40px);
+    z-index: 10;
+}
+
+#table-cards { display: flex; gap: 15px; }
+
+.action-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 15px 30px;
+    background: #f1c40f;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}body {
+    background: #121212;
+    margin: 0;
+    font-family: 'Arial Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+#menu { text-align: center; }
+
+.menu-btn {
+    display: block;
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 24px;
+    background: #e67e22;
+    border: 4px solid #d35400;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.table {
+    width: 85vw;
+    height: 60vh;
+    background: radial-gradient(circle, #27ae60 0%, #1e8449 100%);
+    border: 15px solid #5d4037;
+    border-radius: 200px;
+    position: relative;
+    box-shadow: inset 0 0 100px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hand {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: -40px;
+}
+
+.card {
+    width: 100px;
+    height: 145px;
+    background-color: white;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    border: 2px solid #333;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+}
+
+.card:hover {
+    transform: translateY(-40px);
+    z-index: 10;
+}
+
+#table-cards { display: flex; gap: 15px; }
+
+.action-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 15px 30px;
+    background: #f1c40f;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
